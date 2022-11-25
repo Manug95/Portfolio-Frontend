@@ -4,6 +4,38 @@ body {
     margin: 0;
 }
 
+.texto-descripcion {
+    padding-left: 25px;
+    margin-bottom: 8px;
+}
+
+.seccion {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.titulo-seccion {
+    padding-left: 25px;
+}
+
+.icono-ed-del {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icono-ed-del i {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+/* .icono-add {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+} */
+
 /* Barra de Navegacion -----------------------------------------------------------------------------------------------------------------------------------------------------------   */
 
 .seccion-oscura {
@@ -44,8 +76,7 @@ body {
 /* Seccion Banner ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
 .banner {
-    margin: 10px auto;
-    padding: 0 20px;
+    margin: 10px;
 }
 
 #banner-img {
@@ -55,15 +86,14 @@ body {
 }
 
 .foto-perfil {
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: -100px;
 }
 
 .foto-perfil i {
-    display: block;
+    font-size: 20px;
     position: relative;
     left: 250px;
-    font-size: 20px;
     bottom: 40px;
 }
 
@@ -79,9 +109,27 @@ body {
     font-weight: bold;
 }
 
-.seccion-banner p {
+.seccion-banner p, #mi-nombre {
     padding-left: 50px;
     margin-bottom: 8px;
+}
+
+/* Seccion Acerca de */
+
+
+
+/* Seccion Educacion */
+
+.educacion img {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+.logo-institucion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos Responsivos ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -90,9 +138,19 @@ body {
     .barra-navegacion .row div.justify-content-start, .barra-navegacion .row div.justify-content-end {
         justify-content: center!important;
     }
+
+    .educacion img {
+        width: 100px;
+        height: 100px;
+        margin-left: 12px;
+    }
+
+    #banner-img {
+        height: 250px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     #foto-perfil {
         width: 150px;
         height: 150px;
