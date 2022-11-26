@@ -13,9 +13,18 @@ body {
     border: 1px solid lightgray;
     border-radius: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-seccion {
+    margin-top: 10px;
 }
 
 .titulo-seccion {
+    padding-left: 90px;
+}
+
+.titulo-subseccion {
     padding-left: 25px;
 }
 
@@ -29,12 +38,6 @@ body {
     padding-left: 10px;
     font-size: 20px;
 }
-
-/* .icono-add {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-} */
 
 /* Barra de Navegacion -----------------------------------------------------------------------------------------------------------------------------------------------------------   */
 
@@ -116,17 +119,23 @@ body {
 
 /* Seccion Acerca de */
 
-
+#sobre-mi {
+    padding-left: 25px;
+}
 
 /* Seccion Educacion */
 
-.educacion img {
+/* .titulo-seccion {
+    padding-left: 25px;
+} */
+
+.logo img {
     width: 150px;
     height: 150px;
     margin-left: 25px;
 }
 
-.logo-institucion {
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +148,7 @@ body {
         justify-content: center!important;
     }
 
-    .educacion img {
+    .logo img {
         width: 100px;
         height: 100px;
         margin-left: 12px;
@@ -163,4 +172,26 @@ body {
     .foto-perfil i {
         left: 150px;
     }
+
+    .titulo-seccion {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .icono-ed-del {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #mi-nombre {
+        padding-left: 25px;
+        font-size: 30px;
+    }
 }
+
+/* @media screnn and (min-width: 992px) {
+    #foto-perfil {
+        width: 200px;
+        height: 200px;
+    }
+} */
