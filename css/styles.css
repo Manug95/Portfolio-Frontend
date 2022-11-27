@@ -28,13 +28,13 @@ body {
     padding-left: 25px;
 }
 
-.icono-ed-del {
+.icono-ed-del, .icono-add {
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
-.icono-ed-del i {
+.icono-ed-del i, .icono-add i {
     padding-left: 10px;
     font-size: 20px;
 }
@@ -107,7 +107,7 @@ body {
     border-radius: 50%;
 }
 
-.seccion-banner #mi-nombre {
+#mi-nombre {
     font-size: 40px;
     font-weight: bold;
 }
@@ -130,8 +130,8 @@ body {
 } */
 
 .logo img {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     margin-left: 25px;
 }
 
@@ -139,6 +139,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Seccion Habilidades */
+
+.progress {
+    margin-top: 10px;
 }
 
 /* Estilos Responsivos ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -181,11 +187,17 @@ body {
     .icono-ed-del {
         flex-direction: column;
         justify-content: center;
+        padding-left: 0;
+        font-size: 15px;
     }
 
     #mi-nombre {
         padding-left: 25px;
         font-size: 30px;
+    }
+
+    .progress {
+        margin-top: 20px;
     }
 }
 
