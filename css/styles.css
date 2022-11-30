@@ -1,5 +1,9 @@
 /* Estilos Generales */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -25,7 +29,7 @@ body {
 }
 
 .seccion {
-    border: 1px solid lightgray;
+    border: 1px solid darkgrey;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -178,9 +182,64 @@ body {
     font-weight: bold;
 }
 
-/* .habilidades .row {
-    margin-top: 10px;
-} */
+/* Seccion Proyectos ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.proyecto {
+    padding-left: 25px;
+}
+
+.proyecto ~ p, .proyecto ~ a {
+    padding-left: 15px;
+    margin-bottom: 8px;
+}
+
+.proyecto a i {
+    color: #ffc107;
+    font-size: 20px;
+}
+
+/* Seccion Footer */
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid #ffc107;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    border: 2px solid white;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
 
 /* Estilos Responsivos -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
